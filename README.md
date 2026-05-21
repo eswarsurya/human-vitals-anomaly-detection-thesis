@@ -4,7 +4,7 @@ Machine learning thesis project focused on detecting unusual human vital sign pa
 
 ## Why This Project Matters
 
-In healthcare style analytics, a model should not only say that something looks unusual. Analysts and stakeholders also need to understand which measurements influenced that decision. This project was built to explore that problem using anomaly detection and SHAP explainability.
+In healthcare style analytics, a model should not only say that something looks unusual. Analysts and stakeholders also need to understand which measurements influenced that decision. This project explores that problem using anomaly detection and SHAP explainability.
 
 The work was completed as part of my MSc Data Analytics study and uses 200020 human vital sign records.
 
@@ -22,16 +22,16 @@ I cleaned and prepared multivariate vital sign data for anomaly detection. I bui
 
 ## Repository Guide
 
-The notebooks folder is for the model workflow and analysis notebook. The reports folder is for the thesis report and presentation. The data folder is for dataset notes and access guidance. The requirements file lists the Python libraries used.
+The notebooks folder is planned for the model workflow and analysis notebook. The reports folder is planned for the thesis report and presentation. The data folder is used for dataset notes and access guidance. The requirements file lists the Python libraries used.
 
 ## Outputs And Results
 
-The project produced a working anomaly detection process for large vital sign data, explainability output showing drivers behind anomaly scores, visual summaries for reviewing model behaviour, and a report and presentation suitable for academic and recruiter review.
+The project produced a working anomaly detection process for large vital sign data, explainability output showing drivers behind anomaly scores, visual summaries for reviewing model behaviour, and a report and presentation suitable for academic review.
 
-## How Recruiters Should Review This
+## Project Walkthrough
 
-Start with this README to understand the purpose. Then review the notebook for the technical workflow and the report for methodology, interpretation, and written communication. This project demonstrates applied machine learning, explainable AI, and the ability to communicate model results clearly.
+A good way to explore this project is to start with the README for context, then move into the notebook, report, and presentation files as they are added. The project is intended to show applied machine learning, explainable AI, and clear communication of model results.
 
 ## Next Improvements
 
-I plan to add a smaller public sample dataset for reproducible review, include dashboard screenshots from the model output, and add a short model evaluation summary table for faster recruiter scanning.
+Planned improvements include a smaller public sample dataset, dashboard screenshots from the model output, and a short model evaluation summary table for faster scanning.

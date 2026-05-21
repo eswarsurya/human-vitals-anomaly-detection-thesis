@@ -4,7 +4,7 @@ This file gives a public view of the thesis output without exposing the full raw
 
 ## Project Output
 
-The thesis workflow detects unusual human vital sign records using unsupervised anomaly detection. The key output is a set of flagged records, visual summaries, and SHAP based explanations showing which variables influenced the anomaly decision.
+The thesis workflow detects unusual human vital sign records using unsupervised anomaly detection. The key output is a set of flagged records, visual summaries, and SHAP based explanations showing which variables influenced each anomaly decision.
 
 ## Main Evidence
 

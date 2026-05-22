@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Gender Distribution</title>
+  <desc id="desc">Bar chart showing Female at 50.05 percent and Male at 49.95 percent.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <text x="40" y="55" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Gender Distribution</text>
+  <text x="40" y="86" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Public-safe demographic summary from 200,020 thesis records</text>
+  <line x1="160" y1="330" x2="700" y2="330" stroke="#9ca3af" stroke-width="1"/>
+  <text x="40" y="180" font-family="Arial, sans-serif" font-size="16" fill="#111827">Female</text>
+  <rect x="160" y="150" width="430" height="46" fill="#7c3aed" rx="4"/>
+  <text x="625" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">50.05%</text>
+  <text x="625" y="202" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">100,117 records</text>
+  <text x="40" y="260" font-family="Arial, sans-serif" font-size="16" fill="#111827">Male</text>
+  <rect x="160" y="230" width="429" height="46" fill="#0891b2" rx="4"/>
+  <text x="625" y="260" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">49.95%</text>
+  <text x="625" y="282" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">99,903 records</text>
+  <text x="40" y="380" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Raw records are not uploaded publicly; this chart uses aggregate counts only.</text>
+</svg>

@@ -27,7 +27,7 @@ I cleaned and prepared multivariate vital-sign data for anomaly detection. I bui
 | `data/` | Public-safe sample data and dataset sharing notes. |
 | `outputs/` | Dataset profile, summary statistics, risk/gender distributions, and model output summary. |
 | `src/` | Reusable Python anomaly detection pipeline. |
-| `notebooks/` | Public workflow script and notebook walkthrough material. |
+| `notebooks/` | Public notebook and workflow material for GitHub review. |
 | `project-evidence/` | Report summary and notebook walkthrough written for public review. |
 | `reports/` | Notes for public-safe thesis report and presentation evidence. |
 | `assets/` | Public-safe visuals created from aggregate outputs. |
@@ -39,6 +39,7 @@ I cleaned and prepared multivariate vital-sign data for anomaly detection. I bui
 - Summary statistics for the public-safe vital-sign fields.
 - Risk category and gender distribution output files.
 - Public Python workflow showing the Isolation Forest process.
+- Public notebook: `notebooks/human_vitals_public_workflow.ipynb`.
 - Report summary, notebook walkthrough, and model output summary.
 - Simple aggregate visuals for quick review.
 
@@ -50,7 +51,7 @@ The public GitHub version avoids uploading the raw dataset because it contains r
 
 ## Project Walkthrough
 
-A good way to explore this project is to start with the README, then review `outputs/model_output_summary.md`, `project-evidence/report_summary.md`, and `notebooks/human_vital_anomaly_detection_public_workflow.py`. The project is intended to show applied machine learning, explainable AI, and clear communication of model results.
+A good way to explore this project is to start with the README, then review `outputs/model_output_summary.md`, `project-evidence/report_summary.md`, `notebooks/human_vitals_public_workflow.ipynb`, and `src/anomaly_detection_pipeline.py`. The project is intended to show applied machine learning, explainable AI, and clear communication of model results.
 
 ## Next Improvements
 

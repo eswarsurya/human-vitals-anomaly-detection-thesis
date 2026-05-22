@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Risk Category Distribution</title>
+  <desc id="desc">Bar chart showing High Risk at 52.55 percent and Low Risk at 47.45 percent.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <text x="40" y="55" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Risk Category Distribution</text>
+  <text x="40" y="86" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Public-safe summary from 200,020 thesis records</text>
+  <line x1="160" y1="330" x2="700" y2="330" stroke="#9ca3af" stroke-width="1"/>
+  <text x="40" y="180" font-family="Arial, sans-serif" font-size="16" fill="#111827">High Risk</text>
+  <rect x="160" y="150" width="452" height="46" fill="#2563eb" rx="4"/>
+  <text x="625" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">52.55%</text>
+  <text x="625" y="202" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">105,115 records</text>
+  <text x="40" y="260" font-family="Arial, sans-serif" font-size="16" fill="#111827">Low Risk</text>
+  <rect x="160" y="230" width="408" height="46" fill="#0f766e" rx="4"/>
+  <text x="625" y="260" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">47.45%</text>
+  <text x="625" y="282" font-family="Arial, sans-serif" font-size="13" fill="#4b5563">94,905 records</text>
+  <text x="40" y="380" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Raw records are not uploaded publicly; this chart uses aggregate counts only.</text>
+</svg>

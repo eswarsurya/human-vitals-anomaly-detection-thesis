@@ -1,16 +1,18 @@
 # Human Vitals Anomaly Detection Thesis
 
-Machine learning thesis project focused on detecting unusual human vital-sign patterns and explaining why each record is flagged. This is one of my strongest academic projects because it combines a large dataset, unsupervised modelling, explainable AI, and clear reporting.
+**Status: Completed MSc Data Analytics thesis project**
+
+Machine learning thesis project focused on detecting unusual human vital-sign patterns and explaining why each record is flagged. The project combines a large multivariate dataset, unsupervised anomaly detection, explainable AI, and documented analytical reporting.
 
 ## Why This Project Matters
 
-In healthcare-style analytics, a model should not only say that something looks unusual. Analysts and stakeholders also need to understand which measurements influenced that decision. This project explores that problem using anomaly detection and SHAP explainability.
+A useful anomaly detector should not only identify unusual records. Analysts and stakeholders also need to understand which measurements contributed to the decision. This project addresses that problem using **Isolation Forest** and **SHAP explainability**.
 
-The work was completed as part of my MSc Data Analytics study and uses **200,020 human vital-sign records**.
+The completed thesis workflow covers **200,020 human vital-sign records**.
 
 ## Analytics Question
 
-Can an unsupervised machine learning model identify unusual vital-sign patterns, and can the output be explained clearly enough for review and trust?
+Can an unsupervised machine-learning workflow identify unusual vital-sign patterns and provide explanations that are clear enough for analytical review?
 
 ## Tools Used
 
@@ -18,41 +20,47 @@ Python, Pandas, NumPy, Scikit-learn, Isolation Forest, SHAP, Matplotlib, Seaborn
 
 ## What I Implemented
 
-I cleaned and prepared multivariate vital-sign data for anomaly detection. I built an Isolation Forest workflow to identify unusual records, then used SHAP values to explain which features contributed to anomaly decisions. I also created visual analysis to compare normal and anomalous patterns, and documented the methodology, assumptions, results, and limitations in a thesis-style report.
+- Cleaned and prepared multivariate vital-sign data.
+- Built an Isolation Forest workflow for anomaly detection.
+- Used SHAP values to explain feature contribution to anomaly decisions.
+- Produced public-safe anomaly, risk-category, gender-distribution, and summary outputs.
+- Documented methodology, assumptions, limitations, and interpretation.
+- Added a reusable Python pipeline and public notebook for review.
+
+## Key Evidence
+
+- **200,020 records** in the full project dataset.
+- **Isolation Forest** used for unsupervised anomaly detection.
+- **SHAP** used to explain anomaly drivers.
+- Public-safe outputs and sample data provided for GitHub review.
+
+The project deliberately avoids publishing the raw dataset because it contains record identifiers and exact timestamps.
 
 ## Repository Guide
 
 | Path | Purpose |
-|---|---|
-| `data/` | Public-safe sample data and dataset sharing notes. |
-| `outputs/` | Dataset profile, summary statistics, risk/gender distributions, and model output summary. |
-| `src/` | Reusable Python anomaly detection pipeline. |
-| `notebooks/` | Public notebook and workflow material for GitHub review. |
-| `project-evidence/` | Report summary and notebook walkthrough written for public review. |
-| `reports/` | Notes for public-safe thesis report and presentation evidence. |
-| `assets/` | Public-safe visuals created from aggregate outputs. |
+| --- | --- |
+| `data/` | Public-safe sample and sharing notes |
+| `outputs/` | Dataset profile, summaries, distributions, and model output |
+| `src/` | Reusable anomaly detection pipeline |
+| `notebooks/` | Public workflow notebook and analysis |
+| `project-evidence/` | Report summary and walkthrough |
+| `reports/` | Public-safe thesis documentation |
+| `assets/` | Aggregate visuals |
 
-## Public Evidence Added
+## How To Review
 
-- Public-safe sample dataset with direct patient identifiers and exact timestamps removed.
-- Dataset profile confirming the full project scale of 200,020 records.
-- Summary statistics for the public-safe vital-sign fields.
-- Risk category and gender distribution output files.
-- Public Python workflow showing the Isolation Forest process.
-- Public notebook: `notebooks/human_vitals_public_workflow.ipynb`.
-- Report summary, notebook walkthrough, and model output summary.
-- Simple aggregate visuals for quick review.
+Start with `outputs/model_output_summary.md`, then inspect `src/anomaly_detection_pipeline.py`, `notebooks/human_vitals_public_workflow.ipynb`, and `project-evidence/report_summary.md`.
 
-## Outputs And Results
+## Related Engineering Project
 
-The project produced a working anomaly detection process for large vital-sign data, explainability output showing drivers behind anomaly scores, visual summaries for reviewing model behaviour, and a report and presentation suitable for academic review.
+The thesis modelling approach was also extended into a service-oriented API:
 
-The public GitHub version avoids uploading the raw dataset because it contains record identifiers and exact timestamps. Instead, it includes safe sample data and aggregate evidence that demonstrates the project structure and output.
+[Human Vitals Anomaly Detection API](https://github.com/eswarsurya/human-vitals-anomaly-api)
 
-## Project Walkthrough
+## Author
 
-A good way to explore this project is to start with the README, then review `outputs/model_output_summary.md`, `project-evidence/report_summary.md`, `notebooks/human_vitals_public_workflow.ipynb`, and `src/anomaly_detection_pipeline.py`. The project is intended to show applied machine learning, explainable AI, and clear communication of model results.
+**Eswar Surya Danaboina** · MSc Data Analytics · Dublin, Ireland
 
-## Next Improvements
-
-Planned improvements include exporting the final thesis report as a clean public PDF and adding screenshots from SHAP/model visuals where sharing is appropriate.
+Portfolio: https://eswardanaboina.vercel.app/  
+LinkedIn: https://www.linkedin.com/in/eswarsurya76/
